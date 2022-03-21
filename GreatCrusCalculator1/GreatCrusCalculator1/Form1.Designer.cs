@@ -90,6 +90,7 @@
             this.lbl_Display.Name = "lbl_Display";
             this.lbl_Display.Size = new System.Drawing.Size(358, 42);
             this.lbl_Display.TabIndex = 1;
+            this.lbl_Display.Text = "0";
             this.lbl_Display.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.lbl_Display.WordWrap = false;
             // 

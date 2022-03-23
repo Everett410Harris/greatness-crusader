@@ -1,0 +1,17 @@
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\bin\Debug\net6.0-windows\GreatCrusCalculator1.exe
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\bin\Debug\net6.0-windows\GreatCrusCalculator1.deps.json
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\bin\Debug\net6.0-windows\GreatCrusCalculator1.runtimeconfig.json
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\bin\Debug\net6.0-windows\GreatCrusCalculator1.dll
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\bin\Debug\net6.0-windows\ref\GreatCrusCalculator1.dll
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\bin\Debug\net6.0-windows\GreatCrusCalculator1.pdb
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\GreatCrusCalculator1.csproj.AssemblyReference.cache
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\GreatCrusCalculator1.Form1.resources
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\GreatCrusCalculator1.csproj.GenerateResource.cache
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\GreatCrusCalculator1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\GreatCrusCalculator1.AssemblyInfoInputs.cache
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\GreatCrusCalculator1.AssemblyInfo.cs
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\GreatCrusCalculator1.csproj.CoreCompileInputs.cache
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\GreatCrusCalculator1.dll
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\ref\GreatCrusCalculator1.dll
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\GreatCrusCalculator1.pdb
+C:\Users\Tech Louisville\RemoteCloneRepo\greatness-crusader\GreatCrusCalculator1\GreatCrusCalculator1\obj\Debug\net6.0-windows\GreatCrusCalculator1.genruntimeconfig.cache

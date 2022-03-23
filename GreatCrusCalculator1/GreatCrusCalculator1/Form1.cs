@@ -145,11 +145,88 @@ namespace GreatCrusCalculator1
                 // get the First Number before x (string formatted number) using Substring() method of string
                 string n1 = tb.Text.Substring(0, pos);
                 // get the Second Number after x
-                string n2 = tb.Text.Substring(pos);
+                string n2 = tb.Text.Substring(pos+1);
                 // convert string formatted 1st number to double which supports both integer and float using static method Parse()
                 double a = double.Parse(n1);
                 // convert string formatted 2nd number to double
                 double b = double.Parse(n2);
+                // multiply the number using the * operator
+                double c = a * b;
+                // display the result in same text box but text box accepts only string whatever data if so
+                // we need to convert the result into string
+                tb.Text = c.ToString();
+            }
+            else if (tb.Text.Contains("/"))
+            {
+                // find the index position of the letter '/' in the above expression using string IndexOf() method
+                int pos = tb.Text.IndexOf('/');
+                // get the First Number before / (string formatted number) using Substring() method of string
+                string n1 = tb.Text.Substring(0, pos);
+                // get the Second Number after /
+                string n2 = tb.Text.Substring(pos+1);
+                // convert string formatted 1st number to double which supports both integer and float using static method Parse()
+                double a = double.Parse(n1);
+                // convert string formatted 2nd number to double
+                double b = double.Parse(n2);
+                // multiply the number using the / operator
+                double c = a / b;
+                // display the result in same text box but text box accepts only string whatever data if so
+                // we need to convert the result into string
+                tb.Text = c.ToString();
+            }
+            else if (tb.Text.Contains("+"))
+            {
+                // find the index position of the letter '+' in the above expression using string IndexOf() method
+                int pos = tb.Text.IndexOf('+');
+                // get the First Number before + (string formatted number) using Substring() method of string
+                string n1 = tb.Text.Substring(0, pos);
+                // get the Second Number after +
+                string n2 = tb.Text.Substring(pos+1);
+                // convert string formatted 1st number to double which supports both integer and float using static method Parse()
+                double a = double.Parse(n1);
+                // convert string formatted 2nd number to double
+                double b = double.Parse(n2);
+                // multiply the number using the + operator
+                double c = a + b;
+                // display the result in same text box but text box accepts only string whatever data if so
+                // we need to convert the result into string
+                tb.Text = c.ToString();
+            }
+            else if (tb.Text.Contains("-"))
+            {
+                // find the index position of the letter '-' in the above expression using string IndexOf() method
+                int pos = tb.Text.IndexOf('-');
+                // get the First Number before - (string formatted number) using Substring() method of string
+                string n1 = tb.Text.Substring(0, pos);
+                // get the Second Number after -
+                string n2 = tb.Text.Substring(pos+1);
+                // convert string formatted 1st number to double which supports both integer and float using static method Parse()
+                double a = double.Parse(n1);
+                // convert string formatted 2nd number to double
+                double b = double.Parse(n2);
+                // multiply the number using the - operator
+                double c = a - b;
+                // display the result in same text box but text box accepts only string whatever data if so
+                // we need to convert the result into string
+                tb.Text = c.ToString();
+            }
+            else if (tb.Text.Contains("%"))
+            {
+                // find the index position of the letter '%' in the above expression using string IndexOf() method
+                int pos = tb.Text.IndexOf('%');
+                // get the First Number before % (string formatted number) using Substring() method of string
+                string n1 = tb.Text.Substring(0, pos);
+                // get the Second Number after %
+                string n2 = tb.Text.Substring(pos+1);
+                // convert string formatted 1st number to double which supports both integer and float using static method Parse()
+                double a = double.Parse(n1);
+                // convert string formatted 2nd number to double
+                double b = double.Parse(n2);
+                // multiply the number using the % operator
+                double c = a % b;
+                // display the result in same text box but text box accepts only string whatever data if so
+                // we need to convert the result into string
+                tb.Text = c.ToString();
             }
         }
     }

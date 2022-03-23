@@ -15,7 +15,7 @@ namespace GreatCrusCalculator1
 
         // button 1
         // append the text using Text w/ + symbol
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             tb.Text = tb.Text + "1";
         }
@@ -229,5 +229,7 @@ namespace GreatCrusCalculator1
                 tb.Text = c.ToString();
             }
         }
+
+        
     }
 }

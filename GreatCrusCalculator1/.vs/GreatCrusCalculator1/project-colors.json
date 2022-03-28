@@ -5,7 +5,12 @@
       "ProjectGuid": "9a9e092d-a749-4ff8-8658-61280fa43977",
       "DisplayName": "GreatCrusCalculator1",
       "ColorIndex": 0
+    },
+    "a79d4598-8f3d-4b37-9477-a291244a2fda": {
+      "ProjectGuid": "a79d4598-8f3d-4b37-9477-a291244a2fda",
+      "DisplayName": "UnitTest",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

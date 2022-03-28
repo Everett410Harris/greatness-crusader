@@ -134,6 +134,7 @@ namespace GreatCrusCalculator1
             tb.Text = ns;
         }
         // button = : Main Logic
+        
         private void button16_Click(object sender, EventArgs e)
         {
         // if the expression (entered by user data) contains "x" means then do the multiplication
@@ -176,21 +177,22 @@ namespace GreatCrusCalculator1
             }
             else if (tb.Text.Contains("+"))
             {
-                // find the index position of the letter '+' in the above expression using string IndexOf() method
+                Operator calculator = new Operator();
+                //// find the index position of the letter '+' in the above expression using string IndexOf() method
                 int pos = tb.Text.IndexOf('+');
-                // get the First Number before + (string formatted number) using Substring() method of string
-                string n1 = tb.Text.Substring(0, pos);
-                // get the Second Number after +
-                string n2 = tb.Text.Substring(pos+1);
-                // convert string formatted 1st number to double which supports both integer and float using static method Parse()
-                double a = double.Parse(n1);
-                // convert string formatted 2nd number to double
-                double b = double.Parse(n2);
-                // multiply the number using the + operator
-                double c = a + b;
-                // display the result in same text box but text box accepts only string whatever data if so
-                // we need to convert the result into string
-                tb.Text = c.ToString();
+                //// get the First Number before + (string formatted number) using Substring() method of string
+                calculator.Input1 = double.Parse(tb.Text.Substring(0, pos));
+                //// get the Second Number after +
+                calculator.Input2 = double.Parse(tb.Text.Substring(pos+1));
+                //// convert string formatted 1st number to double which supports both integer and float using static method Parse()
+                //double a = double.Parse(n1);
+                //// convert string formatted 2nd number to double
+                //double b = double.Parse(n2);
+                //// multiply the number using the + operator
+                //double c = a + b;
+                //// display the result in same text box but text box accepts only string whatever data if so
+                //// we need to convert the result into string
+                tb.Text = calculator.ADD().ToString();
             }
             else if (tb.Text.Contains("-"))
             {

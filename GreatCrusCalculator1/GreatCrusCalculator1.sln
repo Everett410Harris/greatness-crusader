@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatCrusCalculator1", "GreatCrusCalculator1\GreatCrusCalculator1.csproj", "{9A9E092D-A749-4FF8-8658-61280FA43977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreatCrusCalculator1", "GreatCrusCalculator1\GreatCrusCalculator1.csproj", "{9A9E092D-A749-4FF8-8658-61280FA43977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C5B3261B-C4EE-4A68-9F86-064911CCF681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{A79D4598-8F3D-4B37-9477-A291244A2FDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{9A9E092D-A749-4FF8-8658-61280FA43977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A9E092D-A749-4FF8-8658-61280FA43977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A9E092D-A749-4FF8-8658-61280FA43977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79D4598-8F3D-4B37-9477-A291244A2FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79D4598-8F3D-4B37-9477-A291244A2FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79D4598-8F3D-4B37-9477-A291244A2FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79D4598-8F3D-4B37-9477-A291244A2FDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A79D4598-8F3D-4B37-9477-A291244A2FDA} = {C5B3261B-C4EE-4A68-9F86-064911CCF681}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AF1CC6B-FAA1-4AA9-89E3-52D94F99C62D}

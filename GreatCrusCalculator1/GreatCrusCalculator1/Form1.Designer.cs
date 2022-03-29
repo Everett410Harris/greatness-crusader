@@ -49,11 +49,11 @@
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.textF = new System.Windows.Forms.TextBox();
             this.textC = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tb
@@ -286,20 +286,6 @@
             this.button20.UseVisualStyleBackColor = false;
             this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
-            // button21
-            // 
-            
-            // 
-            // button22
-            // 
-            this.button22.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button22.Location = new System.Drawing.Point(395, 337);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 56);
-            this.button22.TabIndex = 23;
-            this.button22.Text = "C:";
-            this.button22.UseVisualStyleBackColor = true;
-            // 
             // button23
             // 
             this.button23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -314,7 +300,7 @@
             // textF
             // 
             this.textF.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textF.Location = new System.Drawing.Point(395, 154);
+            this.textF.Location = new System.Drawing.Point(395, 140);
             this.textF.Name = "textF";
             this.textF.Size = new System.Drawing.Size(75, 43);
             this.textF.TabIndex = 25;
@@ -322,11 +308,31 @@
             // textC
             // 
             this.textC.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textC.Location = new System.Drawing.Point(395, 423);
+            this.textC.Location = new System.Drawing.Point(395, 415);
             this.textC.Name = "textC";
             this.textC.ReadOnly = true;
             this.textC.Size = new System.Drawing.Size(75, 43);
             this.textC.TabIndex = 26;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(395, 79);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 40);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "F:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(395, 340);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(75, 40);
+            this.label2.TabIndex = 28;
+            this.label2.Text = "C:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -334,11 +340,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumAquamarine;
             this.ClientSize = new System.Drawing.Size(494, 478);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textC);
             this.Controls.Add(this.textF);
             this.Controls.Add(this.button23);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button21);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button18);
@@ -392,10 +398,10 @@
         private Button button18;
         private Button button19;
         private Button button20;
-        private Button button21;
-        private Button button22;
         private Button button23;
         private TextBox textF;
         private TextBox textC;
+        private Label label1;
+        private Label label2;
     }
 }

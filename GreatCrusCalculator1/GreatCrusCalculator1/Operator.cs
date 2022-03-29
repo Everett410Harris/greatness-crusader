@@ -8,9 +8,9 @@ namespace GreatCrusCalculator1
 {
     internal class Operator
     {
-        public double Input1 
+        public double Input1
         {
-            get; set; 
+            get; set;
         }
 
         public double Input2
@@ -28,6 +28,6 @@ namespace GreatCrusCalculator1
             return Input1 - Input2;
         }
 
-        public double 
+        
     }
 }

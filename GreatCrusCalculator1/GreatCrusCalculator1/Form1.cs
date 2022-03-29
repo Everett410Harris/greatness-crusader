@@ -232,6 +232,13 @@ namespace GreatCrusCalculator1
             }
         }
 
-        
+        private void button23_Click(object sender, EventArgs e)
+        {
+            // C = (5/9)*(F-32)
+            double c = 0.0, f = 0.0;
+            f = Convert.ToDouble(textF.Text);
+            c = (5.0 / 9) * (f - 32);
+            textC.Text = c.ToString();
+        }
     }
 }

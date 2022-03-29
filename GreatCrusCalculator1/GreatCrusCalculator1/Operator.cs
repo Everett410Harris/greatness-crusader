@@ -28,6 +28,21 @@ namespace GreatCrusCalculator1
             return Input1 - Input2;
         }
 
-        
+        public double Multiplication()
+        {
+            return Input1 * Input2;
+        }
+
+        public double Division()
+        {
+            return Input1 / Input2;
+        }
+
+        public double Percentage()
+        {
+            return Input1 % Input2;
+        }
+
+
     }
 }

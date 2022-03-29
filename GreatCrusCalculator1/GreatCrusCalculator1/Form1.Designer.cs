@@ -370,7 +370,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculator";
+            this.Text = "Calculator-Conversion";
             this.ResumeLayout(false);
             this.PerformLayout();
 

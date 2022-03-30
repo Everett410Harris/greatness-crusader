@@ -54,6 +54,7 @@
             this.textC = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button21 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tb
@@ -334,12 +335,24 @@
             this.label2.Text = "C:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button21
+            // 
+            this.button21.Font = new System.Drawing.Font("Georgia", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button21.Location = new System.Drawing.Point(84, 482);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(220, 50);
+            this.button21.TabIndex = 29;
+            this.button21.Text = "How Many Days ";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.ClientSize = new System.Drawing.Size(494, 478);
+            this.ClientSize = new System.Drawing.Size(494, 544);
+            this.Controls.Add(this.button21);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textC);
@@ -403,5 +416,6 @@
         private TextBox textC;
         private Label label1;
         private Label label2;
+        private Button button21;
     }
 }

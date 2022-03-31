@@ -1,3 +1,13 @@
-Starting calculator app.
-add
-add
+
+The answer to your calculation is 26
+The answer to your calculation is 26
+The answer to your calculation is 38
+The answer to your calculation is 26
+The answer to your calculation is 26
+The answer to your calculation is 39
+The answer to your calculation is 39
+Thanks to Doug, your calculation is 39
+Thanks to Doug, your calculation is 38
+The answer to your calculation is 39
+The answer to your calculation is 39
+The answer to your calculation is 12

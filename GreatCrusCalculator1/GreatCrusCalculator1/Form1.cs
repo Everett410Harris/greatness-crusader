@@ -182,6 +182,7 @@ namespace GreatCrusCalculator1
                 //// display the result in same text box but text box accepts only string whatever data if so
                 //// we need to convert the result into string
                 tb.Text = calculator.Multiplication().ToString();
+                logmessage("Thanks to Doug, your calculation is " + (tb.Text = calculator.Multiplication().ToString()));
             }
             else if (tb.Text.Contains("/"))
             {
@@ -201,6 +202,7 @@ namespace GreatCrusCalculator1
                 //// display the result in same text box but text box accepts only string whatever data if so
                 //// we need to convert the result into string
                 tb.Text = calculator.Division().ToString();
+                logmessage("The answer to your calculation is " + (tb.Text = calculator.Division().ToString()));
             }
             else if (tb.Text.Contains("+"))
             {
@@ -219,8 +221,8 @@ namespace GreatCrusCalculator1
                 //double c = a + b;
                 //// display the result in same text box but text box accepts only string whatever data if so
                 //// we need to convert the result into string
-                tb.Text = calculator.ADD().ToString();
-                logmessage("add");
+                tb.Text = calculator.Add().ToString();
+                logmessage("The answer to your calculation is " + (tb.Text = calculator.Add().ToString()));
             }
             else if (tb.Text.Contains("-"))
             {
@@ -239,7 +241,9 @@ namespace GreatCrusCalculator1
                 ////double c = a - b;
                 //// display the result in same text box but text box accepts only string whatever data if so
                 //// we need to convert the result into string
-                tb.Text = calculator.SUBTRACT().ToString();
+                tb.Text = calculator.Subtract().ToString();
+                logmessage("Thanks to Doug, your calculation is " + (tb.Text = calculator.Subtract().ToString()));
+
             }
             else if (tb.Text.Contains("%"))
             {
@@ -259,6 +263,7 @@ namespace GreatCrusCalculator1
                 //// display the result in same text box but text box accepts only string whatever data if so
                 //// we need to convert the result into string
                 tb.Text = calculator.Percentage().ToString();
+                logmessage("Your percentage calculation is " + (tb.Text = calculator.Percentage().ToString()));
             }
         }
 

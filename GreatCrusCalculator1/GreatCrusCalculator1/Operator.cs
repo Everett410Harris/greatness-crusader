@@ -18,19 +18,19 @@ namespace GreatCrusCalculator1
             get; set;
         }
 
-        public double ADD()
+        public double Add()
         {
             return Input1 + Input2;
         }
 
-        public double SUBTRACT()
+        public double Subtract()
         {
             return Input1 - Input2;
         }
 
         public double Multiplication()
         {
-            return Input1 * Input2;
+            return  Input1 * Input2;
         }
 
         public double Division()

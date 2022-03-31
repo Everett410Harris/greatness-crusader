@@ -42,7 +42,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
+            this.buttonS = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
@@ -202,17 +202,17 @@
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
-            // button14
+            // buttonS
             // 
-            this.button14.BackColor = System.Drawing.Color.Yellow;
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button14.Location = new System.Drawing.Point(106, 415);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 56);
-            this.button14.TabIndex = 15;
-            this.button14.Text = "-";
-            this.button14.UseVisualStyleBackColor = false;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
+            this.buttonS.BackColor = System.Drawing.Color.Yellow;
+            this.buttonS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonS.Location = new System.Drawing.Point(106, 415);
+            this.buttonS.Name = "buttonS";
+            this.buttonS.Size = new System.Drawing.Size(75, 56);
+            this.buttonS.TabIndex = 15;
+            this.buttonS.Text = "-";
+            this.buttonS.UseVisualStyleBackColor = false;
+            this.buttonS.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -364,7 +364,7 @@
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
+            this.Controls.Add(this.buttonS);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
@@ -404,7 +404,7 @@
         private Button button11;
         private Button button12;
         private Button button13;
-        private Button button14;
+        private Button buttonS;
         private Button button15;
         private Button button16;
         private Button button17;

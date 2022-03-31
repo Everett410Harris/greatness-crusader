@@ -42,9 +42,9 @@
             this.label1.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(26, 202);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 31);
+            this.label1.Size = new System.Drawing.Size(172, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Days Until:";
+            this.label1.Text = "Halloween:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textDaysU
@@ -52,7 +52,7 @@
             this.textDaysU.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textDaysU.Location = new System.Drawing.Point(302, 199);
             this.textDaysU.Name = "textDaysU";
-            this.textDaysU.Size = new System.Drawing.Size(100, 34);
+            this.textDaysU.Size = new System.Drawing.Size(127, 34);
             this.textDaysU.TabIndex = 1;
             // 
             // textTotal
@@ -60,7 +60,7 @@
             this.textTotal.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textTotal.Location = new System.Drawing.Point(302, 310);
             this.textTotal.Name = "textTotal";
-            this.textTotal.Size = new System.Drawing.Size(100, 34);
+            this.textTotal.Size = new System.Drawing.Size(127, 34);
             this.textTotal.TabIndex = 2;
             // 
             // label2
@@ -69,9 +69,9 @@
             this.label2.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(26, 313);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(170, 31);
+            this.label2.Size = new System.Drawing.Size(171, 31);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Total Days:";
+            this.label2.Text = "Days Until:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
@@ -91,7 +91,7 @@
             this.textToday.Location = new System.Drawing.Point(302, 82);
             this.textToday.Name = "textToday";
             this.textToday.ReadOnly = true;
-            this.textToday.Size = new System.Drawing.Size(100, 34);
+            this.textToday.Size = new System.Drawing.Size(127, 34);
             this.textToday.TabIndex = 5;
             // 
             // DaysUntil

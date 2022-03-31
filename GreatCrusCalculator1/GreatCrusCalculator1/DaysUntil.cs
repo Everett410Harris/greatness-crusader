@@ -22,25 +22,15 @@ namespace GreatCrusCalculator1
         private void DaysUntil_Load(object sender, EventArgs e)
         {
             textToday.Text = DateTime.Now.ToString();
-            textTotal.Text = 
+            textDaysU.Text = "10/31/2022";
+            TimeSpan diff = DateTime.Parse(textDaysU.Text) - DateTime.Now;
+            textTotal.Text = diff.Days.ToString();
 
-
-        }
-
-        public static void Dates()
-        {
-
-            DateTime firstDate = DateTime.Now;
-            DateTime secondDate = TextBox.DaysU;
-
-            TimeSpan diff = firstDate - secondDate;
-
-            Console.WriteLine("Days : " + diff.TotalDays.ToString());
-            Console.WriteLine("Hours : " + diff.TotalHours.ToString());
-            Console.WriteLine("Minutes : " + diff.TotalMinutes.ToString());
 
 
         }
+
+        
 
         //public static void DateTimeDiff(DateTime dateTime,  DateTime DaysU, out int years, out int months, out int days)
         //{

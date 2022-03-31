@@ -5,7 +5,27 @@ namespace GreatCrusCalculator1
         public Form1()
         {
             InitializeComponent();
+            string path = @"log.txt";
+            
+            if (!File.Exists(path))
+            {
+                
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    sw.WriteLine("Starting calculator app.");
+                    
+                }
+            }
         }
+        private void logmessage(string message)
+        {
+            using (StreamWriter sw = File.AppendText("log.txt"))
+            {
+                sw.WriteLine(message);
+                
+            }
+        }
+
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -200,6 +220,7 @@ namespace GreatCrusCalculator1
                 //// display the result in same text box but text box accepts only string whatever data if so
                 //// we need to convert the result into string
                 tb.Text = calculator.ADD().ToString();
+                logmessage("add");
             }
             else if (tb.Text.Contains("-"))
             {

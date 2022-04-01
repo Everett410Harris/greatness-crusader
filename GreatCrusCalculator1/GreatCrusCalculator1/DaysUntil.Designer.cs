@@ -49,19 +49,21 @@
             // 
             // textDaysU
             // 
-            this.textDaysU.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textDaysU.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textDaysU.Location = new System.Drawing.Point(302, 199);
             this.textDaysU.Name = "textDaysU";
-            this.textDaysU.Size = new System.Drawing.Size(127, 34);
+            this.textDaysU.Size = new System.Drawing.Size(127, 41);
             this.textDaysU.TabIndex = 1;
+            this.textDaysU.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textTotal
             // 
-            this.textTotal.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textTotal.Location = new System.Drawing.Point(302, 310);
+            this.textTotal.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textTotal.Location = new System.Drawing.Point(336, 310);
             this.textTotal.Name = "textTotal";
-            this.textTotal.Size = new System.Drawing.Size(127, 34);
+            this.textTotal.Size = new System.Drawing.Size(65, 43);
             this.textTotal.TabIndex = 2;
+            this.textTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -87,12 +89,13 @@
             // 
             // textToday
             // 
-            this.textToday.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textToday.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textToday.Location = new System.Drawing.Point(302, 82);
             this.textToday.Name = "textToday";
             this.textToday.ReadOnly = true;
-            this.textToday.Size = new System.Drawing.Size(127, 34);
+            this.textToday.Size = new System.Drawing.Size(119, 41);
             this.textToday.TabIndex = 5;
+            this.textToday.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // DaysUntil
             // 

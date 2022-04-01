@@ -40,7 +40,7 @@ namespace GreatCrusCalculator1
 
         public double Percentage()
         {
-            return Input1 % Input2;
+            return ((double)Input1 * Input2) / 100;
         }
 
 
